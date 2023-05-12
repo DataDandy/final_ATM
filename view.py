@@ -56,6 +56,7 @@ class Ui_MainWindow(object):
         self.buttonGroup.addButton(self.radioDeposit)
         self.inputPIN = QtWidgets.QLineEdit(self.centralwidget)
         self.inputPIN.setGeometry(QtCore.QRect(130, 90, 200, 20))
+        self.inputPIN.setEchoMode(QtWidgets.QLineEdit.Password)
         font = QtGui.QFont()
         font.setFamily("Silom")
         self.inputPIN.setFont(font)
